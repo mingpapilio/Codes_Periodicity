@@ -4,4 +4,4 @@ This repository has the codes and data for the manuscript "__The explanatory pow
 
 
 
-Please email ming.liu.ac *at* gmail.com if you have any questions with running the codes! (Ming Liu)
+Please email ming.liu.ac *at* gmail.com if you have any questions about running the codes! (Ming Liu)
