@@ -62,4 +62,6 @@ Scripts are numbered to suggest the intended execution order. For example:
 - `2.1_...R` and `2.2_...R` perform cross-validation and cluster preparation before Random Forest modeling in `2.4_CrossVal_RF.R`.
 - SHAP value analysis is handled in `5.3_CrossVal_RF_IC.R`.
 
-All code is released under the CC0 waiver as part of this dataset. If you use the code, please cite the accompanying publication.
+## License
+
+This project is released under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/). You are free to use, modify, and redistribute it for any purpose, without permission. If you use the code, please cite the accompanying publication.
