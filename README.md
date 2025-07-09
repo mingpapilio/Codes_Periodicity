@@ -6,23 +6,23 @@ This dataset contains the raw and processed data, derived climatic measures, phy
 
 The dataset is structured into four main directories, each corresponding to a major analysis section of the manuscript:
 
-### 1. `1. GlobalAnalysis`
+### 1. `GlobalAnalysis`
 - `/data/`: Contains processed CRU TS climate datasets, such as annual means and seasonality indices.
 - `/makefiles/`: Scripts and configuration files for generating processed climatic variables from raw CRU TS data.
 - `/rscripts/`: Contains R scripts for generating global summary maps (used in main figures).
 
-### 2. `2. RegionalAnalysis`
+### 2. `RegionalAnalysis`
 - `/data/`: Contains modified species trait and distribution datasets originally based on [Cornwallis et al. 2017](https://www.nature.com/articles/s41559-016-0057). Climatic variables have been updated using the methods developed in this project.
 - `/rscripts/`: Includes scripts for correlation visualization and exploratory analysis of trait–climate relationships.
 
-### 3. `3. PhylogeneticRegression`
+### 3. `PhylogeneticRegression`
 - `/data/`: Contains the trait data matrix and phylogenetic tree used in the regression analyses.
 - `/rscripts/`: Includes three key scripts:
   - **Non-PCA regression**: Used to produce results in Table 2.
   - **Regression with phylogenetic PCA**: Corresponds to Table 4.
   - **Relative Variable Importance (RVI)** analysis: Introduced in Section 3.1.3.
 
-### 4. `4. RandomForest`
+### 4. `RandomForest`
 - `/data/`: Contains input datasets and the phylogenetic tree used in the Random Forest model.
 - `/output/`: Contains model output including:
   - Cross-validation performance metrics,
